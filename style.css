@@ -1,0 +1,50 @@
+* {
+    background-color: #D3D3D3;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+#quitButton {
+    width: 150px;
+    padding: 25px;
+    background-color: rgb(215, 53, 53);
+    /* float: right; */
+    /* text-align: center; */
+
+}
+
+#cards canvas {
+    width: 80%;
+    height: 100px;
+    border: 2px solid black; 
+    background-color: white;
+
+}
+
+#cards canvas:hover {
+    border: 4px solid black;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+#scoreboard {
+    float: right;
+}
+
+#gameTimer {
+    color: white;
+    text-shadow: 2px 2px #BB0000;
+}
+
+.float-container {
+    display: grid;
+    grid-template-columns: .75fr .25fr;
+    align-items: center;
+}
