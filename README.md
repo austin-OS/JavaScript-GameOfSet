@@ -1,4 +1,4 @@
-# The Game Of Set in JavaScript
+# The Game Of Set In JavaScript
 
 ### Technologies Used
 
